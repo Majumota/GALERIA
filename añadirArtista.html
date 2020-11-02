@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name = "keywords" content="Galeria de arte Vivaldi" > 
+	<title>AÑADIR ARTISTA</title>
+	
+	<!--Llamo archivos externos, CSS -->
+	<link rel= "stylesheet" type="text/css" href="estiloAñadirArtista.css">
+</head>
+
+<body>
+
+<form ACTION="artistinsert.php"METHOD="POST">
+  <div class="container">
+  
+	<fieldset>
+    <center><h1 style="color:teal" size="60";>Ingrese los datos del artista</h1></center>
+	</fieldset>   
+   <hr>
+   
+   <center>
+    <label for="artistid"><b>ID Artista</b></label><br>
+    <input type="text" placeholder="ID Artista" name="artistid" required><br>
+   
+    <label for="fname1"><b>Nombre del artista</b></label><br>
+    <input type="text" placeholder="Nombre" name="fname1" required><br>
+    
+    <label for="lname1"><b>Apellido Paterno</b></label><br>
+    <input type="text" placeholder="Apellido Paterno" name="lname1" required><br>
+	
+	<label for="lname2"><b>Apellido Materno</b></label><br>
+    <input type="text" placeholder="Apellido Materno" name="lname2" required><br>
+	
+	<label for="tel"><b>Teléfono</b></label><br>
+    <input type="text" placeholder="Teléfono" name="tel" required><br>
+	
+	<label for="tel"><b>Correo electrónico</b></label><br>
+    <input type="text" placeholder="Teléfono" name="mail" required><br>
+    
+    <label for="birthplace"><b>Fecha de nacimiento</b></label><br>
+    <input type="text" placeholder="Fecha de nacimiento" name="birthplace" required><br>
+
+    <label for="style"><b>Reseña del artista</b></label><br>
+    <input type="text" placeholder="Reseña del artista" name="reseña" required><br>
+	
+    <label for="style"><b>Número de obras</b></label><br>
+    <input type="text" placeholder="Número de obras" name="cantObras" required><br>
+    <hr>
+
+    <button type="submit" class="registerbtn">SUBMIT</button>
+    <button type="reset" class="registerbtn1">RESET</button>
+    </center>
+  </div>
+</form>
+
+	<p>
+		<a href="paginaPrincipal.html">INICIO</a>
+	</p>
+
+</body>
+</html>
